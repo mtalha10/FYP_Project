@@ -1,0 +1,6 @@
+create secrets.toml:
+ZAP_API_KEY = "ADD_API_KEY_HERE"
+
+[ZAP_PROXY]
+http = "http://127.0.0.1:8080"
+https = "http://127.0.0.1:8080"

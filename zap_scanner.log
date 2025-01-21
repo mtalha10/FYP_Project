@@ -1,0 +1,36 @@
+2025-01-21 22:42:39,924 - INFO - Database initialized successfully
+2025-01-21 22:42:39,927 - INFO - Database initialized successfully
+2025-01-21 22:42:39,927 - INFO - ZAP Scanner initialized successfully
+2025-01-21 22:42:42,967 - INFO - Database initialized successfully
+2025-01-21 22:42:42,969 - INFO - Database initialized successfully
+2025-01-21 22:42:42,969 - INFO - ZAP Scanner initialized successfully
+2025-01-21 22:42:42,974 - INFO - Starting Quick Scan scan for https://example.com
+2025-01-21 22:42:46,278 - INFO - Started quick scan with ID: 0
+2025-01-21 22:42:48,423 - INFO - Scan results saved for scan ID: 0
+2025-01-21 22:42:59,686 - ERROR - Missing secret: 'st.secrets has no key "proxy". Did you forget to add it to secrets.toml, mount it to secret directory, or the app settings on Streamlit Cloud? More info: https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/secrets-management'
+2025-01-21 22:59:21,910 - ERROR - Failed to initialize ScheduleManager: 'st.secrets has no key "proxy". Did you forget to add it to secrets.toml, mount it to secret directory, or the app settings on Streamlit Cloud? More info: https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/secrets-management'
+2025-01-21 23:00:23,051 - INFO - Database initialized successfully
+2025-01-21 23:00:23,053 - INFO - Database initialized successfully
+2025-01-21 23:00:23,053 - INFO - ZAP Scanner initialized successfully
+2025-01-21 23:00:25,897 - INFO - Database initialized successfully
+2025-01-21 23:00:25,899 - INFO - Database initialized successfully
+2025-01-21 23:00:25,899 - INFO - ZAP Scanner initialized successfully
+2025-01-21 23:00:25,904 - INFO - Starting Quick Scan scan for https://example.com
+2025-01-21 23:00:26,881 - INFO - Started quick scan with ID: 1
+2025-01-21 23:00:29,000 - INFO - Scan results saved for scan ID: 1
+2025-01-21 23:21:23,923 - ERROR - Failed to initialize ScheduleManager: 'st.secrets has no key "PROXY_HTTP". Did you forget to add it to secrets.toml, mount it to secret directory, or the app settings on Streamlit Cloud? More info: https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/secrets-management'
+2025-01-21 23:47:50,714 - ERROR - Invalid target URL format
+2025-01-21 23:50:36,215 - ERROR - Error adding schedule: 'ScheduleManager' object has no attribute '_calculate_next_scan'
+2025-01-21 23:51:09,811 - ERROR - Error adding schedule: 'ScheduleManager' object has no attribute '_calculate_next_scan'
+2025-01-21 23:51:20,389 - ERROR - Invalid email format
+2025-01-21 23:52:28,692 - ERROR - Invalid email format
+2025-01-21 23:52:55,655 - ERROR - Error adding schedule: 'ScheduleManager' object has no attribute '_calculate_next_scan'
+2025-01-21 23:53:22,533 - ERROR - Error adding schedule: 'ScheduleManager' object has no attribute '_calculate_next_scan'
+2025-01-21 23:53:26,429 - INFO - Creating schedule with inputs: {'schedule_manager': <zap.schedule.ScheduleManager object at 0x000001E6F7767D50>, 'target_url': 'https://kick.com/', 'col1': DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(6, 1, 0), _index=2), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(6, 1), _index=2), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(6,), _index=6), _parent=DeltaGenerator(), _block_type='form', _form_data=FormData(form_id='new_schedule_form')), _block_type='horizontal', _form_data=FormData(form_id='new_schedule_form')), _block_type='column', _form_data=FormData(form_id='new_schedule_form')), 'col2': DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(6, 1, 1), _index=2), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(6, 1), _index=2), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(6,), _index=6), _parent=DeltaGenerator(), _block_type='form', _form_data=FormData(form_id='new_schedule_form')), _block_type='horizontal', _form_data=FormData(form_id='new_schedule_form')), _block_type='column', _form_data=FormData(form_id='new_schedule_form')), 'frequency': 'daily', 'priority': 'low', 'scan_time': datetime.time(23, 53), 'notification_email': 'sssssss', 'scan_types': ['SQL Injection', 'XSS'], 'tags': ['Staging'], 'description': 'vvvv'}
+2025-01-21 23:53:26,429 - ERROR - Invalid email format
+2025-01-21 23:56:49,940 - WARNING - From D:\FYP\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-01-22 00:04:47,202 - INFO - Database initialized successfully
+2025-01-22 00:04:47,204 - INFO - Database initialized successfully
+2025-01-22 00:04:47,204 - INFO - ZAP Scanner initialized successfully
+2025-01-22 00:08:38,393 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
