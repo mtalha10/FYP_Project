@@ -1,0 +1,77 @@
+2025-01-26 23:15:07,562 - WARNING - From D:\Project\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-01-26 23:15:17,784 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-26 23:15:25,160 - INFO - Database initialized successfully
+2025-01-26 23:15:25,161 - INFO - Database initialized successfully
+2025-01-26 23:15:25,162 - INFO - ZAP Scanner initialized successfully
+2025-01-26 23:15:27,206 - INFO - Database initialized successfully
+2025-01-26 23:15:27,208 - INFO - Database initialized successfully
+2025-01-26 23:15:27,208 - INFO - ZAP Scanner initialized successfully
+2025-01-26 23:15:27,213 - INFO - Starting Quick Scan scan for https://example.com
+2025-01-26 23:15:27,281 - ERROR - Error starting scan: HTTPSConnectionPool(host='example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2025-01-26 23:15:31,352 - INFO - Database initialized successfully
+2025-01-26 23:15:31,354 - INFO - Database initialized successfully
+2025-01-26 23:15:31,354 - INFO - ZAP Scanner initialized successfully
+2025-01-26 23:15:34,704 - INFO - Database initialized successfully
+2025-01-26 23:15:34,706 - INFO - Database initialized successfully
+2025-01-26 23:15:34,707 - INFO - ZAP Scanner initialized successfully
+2025-01-26 23:15:39,889 - INFO - Database initialized successfully
+2025-01-26 23:15:39,891 - INFO - Database initialized successfully
+2025-01-26 23:15:39,891 - INFO - ZAP Scanner initialized successfully
+2025-01-26 23:15:40,886 - INFO - Database initialized successfully
+2025-01-26 23:15:40,888 - INFO - Database initialized successfully
+2025-01-26 23:15:40,889 - INFO - ZAP Scanner initialized successfully
+2025-01-26 23:15:40,893 - INFO - Starting Quick Scan scan for https://example.com
+2025-01-26 23:15:40,950 - ERROR - Error starting scan: HTTPSConnectionPool(host='example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2025-01-26 23:15:45,641 - INFO - Database initialized successfully
+2025-01-26 23:15:45,643 - INFO - Database initialized successfully
+2025-01-26 23:15:45,644 - INFO - ZAP Scanner initialized successfully
+2025-01-26 23:15:45,648 - INFO - Starting API Scan scan for https://example.com
+2025-01-26 23:15:45,715 - ERROR - Error starting scan: HTTPSConnectionPool(host='example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2025-01-26 23:22:14,112 - INFO - Database initialized successfully
+2025-01-26 23:22:14,114 - INFO - Database initialized successfully
+2025-01-26 23:22:14,114 - INFO - ZAP Scanner initialized successfully
+2025-01-26 23:22:16,029 - INFO - Database initialized successfully
+2025-01-26 23:22:16,031 - INFO - Database initialized successfully
+2025-01-26 23:22:16,031 - INFO - ZAP Scanner initialized successfully
+2025-01-26 23:22:16,036 - INFO - Starting Quick Scan scan for https://example.com
+2025-01-26 23:22:16,104 - ERROR - Error starting scan: HTTPSConnectionPool(host='example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2025-01-26 23:23:02,475 - INFO - Database initialized successfully
+2025-01-26 23:23:02,477 - INFO - Database initialized successfully
+2025-01-26 23:23:02,477 - INFO - ZAP Scanner initialized successfully
+2025-01-26 23:23:02,483 - INFO - Starting Quick Scan scan for https://www.google.com/
+2025-01-26 23:23:02,552 - ERROR - Error starting scan: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2025-01-26 23:23:07,192 - INFO - Database initialized successfully
+2025-01-26 23:23:07,195 - INFO - Database initialized successfully
+2025-01-26 23:23:07,195 - INFO - ZAP Scanner initialized successfully
+2025-01-26 23:23:07,200 - INFO - Starting Quick Scan scan for https://www.google.com/
+2025-01-26 23:23:07,257 - ERROR - Error starting scan: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2025-01-26 23:27:04,167 - INFO - Database initialized successfully
+2025-01-26 23:27:04,168 - ERROR - Error initializing ZAP Scanner: ZAPv2.__init__() got an unexpected keyword argument 'session'
+2025-01-26 23:27:17,235 - INFO - Database initialized successfully
+2025-01-26 23:27:17,237 - INFO - Database initialized successfully
+2025-01-26 23:27:17,237 - INFO - ZAP Scanner initialized successfully
+2025-01-26 23:27:47,811 - INFO - Database initialized successfully
+2025-01-26 23:27:47,813 - INFO - Database initialized successfully
+2025-01-26 23:27:47,813 - INFO - ZAP Scanner initialized successfully
+2025-01-26 23:27:47,822 - INFO - Starting Quick Scan scan for https://example.com
+2025-01-26 23:27:48,583 - INFO - Started quick scan with ID: 1
+2025-01-26 23:27:50,692 - INFO - Scan results saved for scan ID: 1
+2025-01-26 23:28:19,415 - WARNING - From D:\Project\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-01-26 23:28:29,978 - INFO - Database initialized successfully
+2025-01-26 23:28:29,980 - INFO - Database initialized successfully
+2025-01-26 23:28:29,980 - INFO - ZAP Scanner initialized successfully
+2025-01-26 23:28:33,494 - INFO - Database initialized successfully
+2025-01-26 23:28:33,496 - INFO - Database initialized successfully
+2025-01-26 23:28:33,497 - INFO - ZAP Scanner initialized successfully
+2025-01-26 23:28:33,503 - INFO - Starting Quick Scan scan for https://example.com
+2025-01-26 23:28:33,808 - INFO - Started quick scan with ID: 2
+2025-01-26 23:28:35,916 - INFO - Scan results saved for scan ID: 2
+2025-01-26 23:34:01,802 - INFO - GET is allowed (Status Code: 200)
+2025-01-26 23:34:01,806 - WARNING - POST is not allowed (Status Code: 405)
+2025-01-26 23:34:01,808 - WARNING - PUT is not allowed (Status Code: 405)
+2025-01-26 23:34:01,811 - WARNING - DELETE is not allowed (Status Code: 405)
+2025-01-26 23:34:01,814 - WARNING - PATCH is not allowed (Status Code: 405)
+2025-01-26 23:34:01,816 - INFO - HEAD is allowed (Status Code: 200)
+2025-01-26 23:34:01,820 - WARNING - OPTIONS is not allowed (Status Code: 405)
