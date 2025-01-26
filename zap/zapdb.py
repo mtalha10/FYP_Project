@@ -25,55 +25,55 @@ def get_db_connection():
 def init_database():
     """Initialize the SQLite database schema."""
     with get_db_connection() as conn:
-        conn.executescript("""
-            PRAGMA foreign_keys = ON;
-
-            CREATE TABLE IF NOT EXISTS schedules (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                target_url TEXT NOT NULL CHECK(target_url LIKE 'http%'),
-                frequency TEXT NOT NULL CHECK(frequency IN ('daily', 'weekly', 'monthly')),
-                scan_time TEXT NOT NULL,
-                scan_types TEXT NOT NULL,
-                last_scan TEXT,
-                next_scan TEXT,
-                status TEXT DEFAULT 'active' CHECK(status IN ('active', 'paused', 'completed')),
-                priority TEXT DEFAULT 'medium' CHECK(priority IN ('low', 'medium', 'high')),
-                notification_email TEXT CHECK(
-                    notification_email IS NULL OR 
-                    notification_email LIKE '%@%.%'
-                ),
-                max_duration INTEGER DEFAULT 3600 CHECK(max_duration > 0),
-                retry_count INTEGER DEFAULT 3 CHECK(retry_count >= 0),
-                created_at TEXT NOT NULL,
-                updated_at TEXT NOT NULL,
-                tags TEXT,
-                description TEXT,
-                version INTEGER DEFAULT 1,
-                UNIQUE(target_url, frequency, scan_time)
-            );
-
-            CREATE TABLE IF NOT EXISTS scan_results (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                schedule_id INTEGER NOT NULL,
-                scan_date TEXT NOT NULL,
-                total_alerts INTEGER DEFAULT 0 CHECK(total_alerts >= 0),
-                high_risks INTEGER DEFAULT 0 CHECK(high_risks >= 0),
-                medium_risks INTEGER DEFAULT 0 CHECK(medium_risks >= 0),
-                low_risks INTEGER DEFAULT 0 CHECK(low_risks >= 0),
-                scan_duration INTEGER CHECK(scan_duration > 0),
-                scan_status TEXT CHECK(scan_status IN ('success', 'failed', 'in_progress')),
-                error_message TEXT,
-                raw_results TEXT,
-                false_positives INTEGER DEFAULT 0 CHECK(false_positives >= 0),
-                verified_vulnerabilities INTEGER DEFAULT 0 CHECK(verified_vulnerabilities >= 0),
-                version INTEGER DEFAULT 1,
-                FOREIGN KEY (schedule_id) REFERENCES schedules(id) ON DELETE CASCADE
-            );
-
-            CREATE INDEX IF NOT EXISTS idx_schedules_status ON schedules(status, next_scan);
-            CREATE INDEX IF NOT EXISTS idx_scan_results_schedule ON scan_results(schedule_id, scan_date);
-            CREATE INDEX IF NOT EXISTS idx_schedules_target ON schedules(target_url);
-        """)
+        conn.executescript("\n"
+                           "            PRAGMA foreign_keys = ON;\n"
+                           "\n"
+                           "            CREATE TABLE IF NOT EXISTS schedules (\n"
+                           "                id INTEGER PRIMARY KEY AUTOINCREMENT,\n"
+                           "                target_url TEXT NOT NULL CHECK(target_url LIKE 'http%'),\n"
+                           "                frequency TEXT NOT NULL CHECK(frequency IN ('daily', 'weekly', 'monthly')),\n"
+                           "                scan_time TEXT NOT NULL,\n"
+                           "                scan_types TEXT NOT NULL,\n"
+                           "                last_scan TEXT,\n"
+                           "                next_scan TEXT,\n"
+                           "                status TEXT DEFAULT 'active' CHECK(status IN ('active', 'paused', 'completed')),\n"
+                           "                priority TEXT DEFAULT 'medium' CHECK(priority IN ('low', 'medium', 'high')),\n"
+                           "                notification_email TEXT CHECK(\n"
+                           "                    notification_email IS NULL OR \n"
+                           "                    notification_email LIKE '%@%.%'\n"
+                           "                ),\n"
+                           "                max_duration INTEGER DEFAULT 3600 CHECK(max_duration > 0),\n"
+                           "                retry_count INTEGER DEFAULT 3 CHECK(retry_count >= 0),\n"
+                           "                created_at TEXT NOT NULL,\n"
+                           "                updated_at TEXT NOT NULL,\n"
+                           "                tags TEXT,\n"
+                           "                description TEXT,\n"
+                           "                version INTEGER DEFAULT 1,\n"
+                           "                UNIQUE(target_url, frequency, scan_time)\n"
+                           "            );\n"
+                           "\n"
+                           "            CREATE TABLE IF NOT EXISTS scan_results (\n"
+                           "                id INTEGER PRIMARY KEY AUTOINCREMENT,\n"
+                           "                schedule_id INTEGER NOT NULL,\n"
+                           "                scan_date TEXT NOT NULL,\n"
+                           "                total_alerts INTEGER DEFAULT 0 CHECK(total_alerts >= 0),\n"
+                           "                high_risks INTEGER DEFAULT 0 CHECK(high_risks >= 0),\n"
+                           "                medium_risks INTEGER DEFAULT 0 CHECK(medium_risks >= 0),\n"
+                           "                low_risks INTEGER DEFAULT 0 CHECK(low_risks >= 0),\n"
+                           "                scan_duration INTEGER CHECK(scan_duration > 0),\n"
+                           "                scan_status TEXT CHECK(scan_status IN ('success', 'failed', 'in_progress')),\n"
+                           "                error_message TEXT,\n"
+                           "                raw_results TEXT,\n"
+                           "                false_positives INTEGER DEFAULT 0 CHECK(false_positives >= 0),\n"
+                           "                verified_vulnerabilities INTEGER DEFAULT 0 CHECK(verified_vulnerabilities >= 0),\n"
+                           "                version INTEGER DEFAULT 1,\n"
+                           "                FOREIGN KEY (schedule_id) REFERENCES schedules(id) ON DELETE CASCADE\n"
+                           "            );\n"
+                           "\n"
+                           "            CREATE INDEX IF NOT EXISTS idx_schedules_status ON schedules(status, next_scan);\n"
+                           "            CREATE INDEX IF NOT EXISTS idx_scan_results_schedule ON scan_results(schedule_id, scan_date);\n"
+                           "            CREATE INDEX IF NOT EXISTS idx_schedules_target ON schedules(target_url);\n"
+                           "        ")
 
 
 
@@ -242,8 +242,9 @@ class ZAPDatabase:
         Initialize the ZAP database connection.
         """
         self.db_name = db_name
-        self.conn = self.init_database()
+        self.conn = self.init_database
 
+    @property
     def init_database(self):
         """
         Initialize SQLite database for storing detailed scan history.

@@ -34,7 +34,7 @@ def show_sidebar_navbar():
 
     with st.sidebar:
         # Branding
-        st.markdown("<h2 style='color:white;'>⚡ WebSecScanner</h2>", unsafe_allow_html=True)
+        st.markdown("<h2 style='color:Black;'>⚡ WebSecScanner</h2>", unsafe_allow_html=True)
         st.write("")  # Spacer
 
         # Navigation menu buttons
@@ -44,9 +44,9 @@ def show_sidebar_navbar():
             "ZAP Tool": "zap_tool",
             "Schedule": "schedule",
             "Code Analysis": "code_analysis",
+            "HTTP Method Tester": "method_tester",
             "Profile": "profile",
-            "Contact Us": "contact_us",
-            "HTTP Method Tester": "method_tester"
+            # "Contact Us": "contact_us",
 
         }
 
