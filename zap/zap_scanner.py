@@ -17,7 +17,7 @@ logging.basicConfig(
 )
 
 # Initialize ZAP configuration
-ZAP_API_KEY = st.secrets["ZAP_API_KEY"]
+ZAP_API_KEY = "oov0mdndelvol4c6s30c7qojdp"
 ZAP_PROXY = {
     "http": "http://127.0.0.1:8080",
     "https": "http://127.0.0.1:8080"
@@ -201,8 +201,12 @@ def display_scan_section(scanner):
     )
 
     if st.button("Start Scan"):
-        with st.spinner("Running scan..."):
+        with st.spinner("Initializing scan..."):
             try:
+                # **Notification: Scan Starting**
+                st.info('**Scan Initiated**', icon="ℹ️")
+                time.sleep(1)  # Brief pause for notification visibility
+
                 start_time = time.time()
                 scan_id = scanner.start_scan(target_url, scan_mode, scan_policy)
 
@@ -227,6 +231,19 @@ def display_scan_section(scanner):
                 progress_bar.progress(100)
                 status_text.text("Scan completed. Analyzing results...")
 
+                # **Notification: Scan Completed**
+                st.success('**Scan Completed Successfully!**', icon="✅")
+
+                # Using st.modal for a more interactive "Scan Completed" experience
+                if st.button("View Scan Completion Details"):
+                    with st.modal("Scan Completion Details"):
+                        st.write("🎉 **Scan Completed Successfully!** 🎉")
+                        st.write("View your scan results and download reports below.")
+                        st.write("Scan Duration:", time.time() - start_time, "seconds")
+                        st.write("Target URL:", target_url)
+                        st.write("Scan Mode:", scan_mode)
+                        st.write("Scan Policy:", scan_policy)
+
                 alerts = scanner.get_alerts()
                 if alerts:
                     alerts_df = pd.DataFrame(alerts)
@@ -241,7 +258,6 @@ def display_scan_section(scanner):
                     scanner.db.save_scan_results(scan_id, target_url, metrics, scan_mode, scan_policy, duration)
 
                     # Generate and display report
-                    st.success("Scan completed successfully!")
                     st.write("Scan Summary:")
                     st.json(metrics)
 

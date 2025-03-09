@@ -75,3 +75,258 @@
 2025-01-26 23:34:01,814 - WARNING - PATCH is not allowed (Status Code: 405)
 2025-01-26 23:34:01,816 - INFO - HEAD is allowed (Status Code: 200)
 2025-01-26 23:34:01,820 - WARNING - OPTIONS is not allowed (Status Code: 405)
+2025-01-30 15:34:53,084 - WARNING - From D:\Project\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-01-30 16:43:27,071 - INFO - Database initialized successfully
+2025-01-30 16:43:27,072 - INFO - Database initialized successfully
+2025-01-30 16:43:27,072 - INFO - ZAP Scanner initialized successfully
+2025-01-30 16:43:32,891 - INFO - Database initialized successfully
+2025-01-30 16:43:32,892 - INFO - Database initialized successfully
+2025-01-30 16:43:32,892 - INFO - ZAP Scanner initialized successfully
+2025-01-30 16:43:32,896 - INFO - Starting Quick Scan scan for https://example.com
+2025-01-30 16:43:34,307 - INFO - Started quick scan with ID: 0
+2025-01-30 16:43:36,361 - INFO - Scan results saved for scan ID: 0
+2025-02-03 15:26:12,563 - WARNING - From D:\Project\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-02-03 15:26:30,846 - INFO - Database initialized successfully
+2025-02-03 15:26:30,848 - INFO - Database initialized successfully
+2025-02-03 15:26:30,848 - INFO - ZAP Scanner initialized successfully
+2025-02-03 15:26:42,194 - INFO - Database initialized successfully
+2025-02-03 15:26:42,197 - INFO - Database initialized successfully
+2025-02-03 15:26:42,197 - INFO - ZAP Scanner initialized successfully
+2025-02-03 15:26:42,201 - INFO - Starting Quick Scan scan for https://example.com
+2025-02-03 15:26:44,072 - INFO - Started quick scan with ID: 0
+2025-02-03 15:26:46,205 - INFO - Scan results saved for scan ID: 0
+2025-02-03 16:58:31,925 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 23:10:19,365 - WARNING - From D:\Project\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-02-16 23:19:31,185 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 23:20:34,664 - INFO - Database initialized successfully
+2025-02-16 23:20:34,665 - INFO - Database initialized successfully
+2025-02-16 23:20:34,666 - INFO - ZAP Scanner initialized successfully
+2025-02-16 23:21:27,629 - ERROR - Scan failed: HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: http://zap/JSON/spider/action/scan/?url=https%3A%2F%2Fwww.google.com%2F (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2025-02-16 23:23:42,601 - INFO - Database initialized successfully
+2025-02-16 23:23:42,603 - INFO - Database initialized successfully
+2025-02-16 23:23:42,603 - INFO - ZAP Scanner initialized successfully
+2025-02-16 23:33:49,892 - INFO - Database initialized successfully
+2025-02-16 23:33:49,893 - INFO - Database initialized successfully
+2025-02-16 23:33:49,893 - INFO - ZAP Scanner initialized successfully
+2025-02-17 00:15:11,997 - ERROR - Scan failed: HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: http://zap/JSON/spider/action/scan/?url=http%3A%2F%2Flocalhost%3A3000%2F (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2025-02-17 00:30:05,475 - INFO - Database initialized successfully
+2025-02-17 00:30:05,478 - INFO - Database initialized successfully
+2025-02-17 00:30:05,478 - INFO - ZAP Scanner initialized successfully
+2025-02-20 00:50:08,653 - WARNING - From D:\Project\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-02-24 12:22:43,688 - WARNING - From D:\Project\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-02-24 12:25:32,850 - INFO - Database initialized successfully
+2025-02-24 12:25:32,853 - INFO - Database initialized successfully
+2025-02-24 12:25:32,853 - INFO - ZAP Scanner initialized successfully
+2025-02-24 12:26:58,922 - INFO - Database initialized successfully
+2025-02-24 12:26:58,924 - INFO - Database initialized successfully
+2025-02-24 12:26:58,924 - INFO - ZAP Scanner initialized successfully
+2025-02-24 12:26:58,931 - INFO - Starting Quick Scan scan for https://chatgpt.com/
+2025-02-24 12:27:00,285 - INFO - Started quick scan with ID: 0
+2025-02-24 12:27:56,322 - INFO - Scan results saved for scan ID: 0
+2025-02-24 12:28:58,872 - INFO - Database initialized successfully
+2025-02-24 12:28:58,874 - INFO - Database initialized successfully
+2025-02-24 12:28:58,874 - INFO - ZAP Scanner initialized successfully
+2025-02-24 12:30:29,435 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-09 22:24:14,501 - WARNING - From D:\Project\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-03-09 22:33:25,746 - INFO - Database initialized successfully
+2025-03-09 22:33:25,748 - INFO - Database initialized successfully
+2025-03-09 22:33:25,748 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:34:00,856 - INFO - Database initialized successfully
+2025-03-09 22:34:00,858 - INFO - Database initialized successfully
+2025-03-09 22:34:00,858 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:34:00,864 - INFO - Starting Quick Scan scan for https://example.com
+2025-03-09 22:34:02,409 - INFO - Started quick scan with ID: 0
+2025-03-09 22:34:04,515 - INFO - Scan results saved for scan ID: 0
+2025-03-09 22:40:25,542 - INFO - Database initialized successfully
+2025-03-09 22:40:25,545 - INFO - Database initialized successfully
+2025-03-09 22:40:25,545 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:40:29,492 - INFO - Database initialized successfully
+2025-03-09 22:40:29,496 - INFO - Database initialized successfully
+2025-03-09 22:40:29,496 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:40:29,499 - INFO - Notification added: info - Starting Quick Scan for https://example.com
+2025-03-09 22:40:29,501 - INFO - Starting Quick Scan scan for https://example.com
+2025-03-09 22:40:31,316 - INFO - Started quick scan with ID: 0
+2025-03-09 22:40:33,371 - INFO - Notification added: info - Scan 100% complete
+2025-03-09 22:40:33,372 - INFO - Notification added: success - Scan completed! Analyzing results...
+2025-03-09 22:40:33,456 - INFO - Scan results saved for scan ID: 0
+2025-03-09 22:40:33,575 - INFO - Notification added: success - Scan completed: 16 vulnerabilities detected in 3.9 seconds
+2025-03-09 22:40:43,284 - INFO - Database initialized successfully
+2025-03-09 22:40:43,287 - INFO - Database initialized successfully
+2025-03-09 22:40:43,287 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:40:44,175 - INFO - Database initialized successfully
+2025-03-09 22:40:44,177 - INFO - Database initialized successfully
+2025-03-09 22:40:44,177 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:40:46,720 - INFO - Database initialized successfully
+2025-03-09 22:40:46,721 - INFO - Database initialized successfully
+2025-03-09 22:40:46,722 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:40:50,552 - INFO - Database initialized successfully
+2025-03-09 22:40:50,554 - INFO - Database initialized successfully
+2025-03-09 22:40:50,555 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:40:50,558 - INFO - Notification added: info - Starting Quick Scan for https://example.com
+2025-03-09 22:40:50,559 - INFO - Starting Quick Scan scan for https://example.com
+2025-03-09 22:40:50,903 - INFO - Started quick scan with ID: 1
+2025-03-09 22:40:52,931 - INFO - Notification added: success - Scan completed! Analyzing results...
+2025-03-09 22:40:52,962 - INFO - Scan results saved for scan ID: 1
+2025-03-09 22:40:53,034 - INFO - Notification added: success - Scan completed: 18 vulnerabilities detected in 2.4 seconds
+2025-03-09 22:40:55,416 - INFO - Database initialized successfully
+2025-03-09 22:40:55,418 - INFO - Database initialized successfully
+2025-03-09 22:40:55,419 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:40:58,413 - INFO - Database initialized successfully
+2025-03-09 22:40:58,416 - INFO - Database initialized successfully
+2025-03-09 22:40:58,416 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:40:58,418 - INFO - Notification added: info - Starting Quick Scan for https://example.com
+2025-03-09 22:40:58,419 - INFO - Starting Quick Scan scan for https://example.com
+2025-03-09 22:40:58,757 - INFO - Started quick scan with ID: 2
+2025-03-09 22:41:00,781 - INFO - Notification added: info - Scan 100% complete
+2025-03-09 22:41:00,782 - INFO - Notification added: success - Scan completed! Analyzing results...
+2025-03-09 22:41:00,857 - INFO - Scan results saved for scan ID: 2
+2025-03-09 22:41:00,954 - INFO - Notification added: success - Scan completed: 21 vulnerabilities detected in 2.4 seconds
+2025-03-09 22:44:03,737 - INFO - Database initialized successfully
+2025-03-09 22:44:03,742 - INFO - Database initialized successfully
+2025-03-09 22:44:03,743 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:44:08,840 - INFO - Database initialized successfully
+2025-03-09 22:44:08,845 - INFO - Database initialized successfully
+2025-03-09 22:44:08,845 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:44:11,165 - INFO - Database initialized successfully
+2025-03-09 22:44:11,170 - INFO - Database initialized successfully
+2025-03-09 22:44:11,170 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:44:12,453 - INFO - Database initialized successfully
+2025-03-09 22:44:12,458 - INFO - Database initialized successfully
+2025-03-09 22:44:12,458 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:44:12,463 - INFO - Notification added: info - Starting Quick Scan for https://example.com
+2025-03-09 22:44:12,466 - INFO - Starting Quick Scan scan for https://example.com
+2025-03-09 22:44:13,420 - INFO - Started quick scan with ID: 3
+2025-03-09 22:44:15,449 - INFO - Notification added: success - Scan completed! Analyzing results...
+2025-03-09 22:44:15,515 - INFO - Scan results saved for scan ID: 3
+2025-03-09 22:44:15,604 - INFO - Notification added: success - Scan completed: 23 vulnerabilities detected in 3.0 seconds
+2025-03-09 22:44:26,639 - INFO - Database initialized successfully
+2025-03-09 22:44:26,644 - INFO - Database initialized successfully
+2025-03-09 22:44:26,644 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:44:26,648 - INFO - Notification added: info - Starting Quick Scan for https://example.com
+2025-03-09 22:44:26,650 - INFO - Starting Quick Scan scan for https://example.com
+2025-03-09 22:44:26,999 - INFO - Started quick scan with ID: 4
+2025-03-09 22:44:29,026 - INFO - Notification added: info - Scan 100% complete
+2025-03-09 22:44:29,027 - INFO - Notification added: success - Scan completed! Analyzing results...
+2025-03-09 22:44:29,081 - INFO - Scan results saved for scan ID: 4
+2025-03-09 22:44:29,189 - INFO - Notification added: success - Scan completed: 26 vulnerabilities detected in 2.4 seconds
+2025-03-09 22:44:56,957 - INFO - Database initialized successfully
+2025-03-09 22:44:56,959 - INFO - Database initialized successfully
+2025-03-09 22:44:56,959 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:47:53,796 - INFO - Database initialized successfully
+2025-03-09 22:47:53,797 - INFO - Database initialized successfully
+2025-03-09 22:47:53,797 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:47:56,667 - INFO - Database initialized successfully
+2025-03-09 22:47:56,669 - INFO - Database initialized successfully
+2025-03-09 22:47:56,670 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:47:56,675 - INFO - Starting Quick Scan scan for https://example.com
+2025-03-09 22:47:57,590 - INFO - Started quick scan with ID: 5
+2025-03-09 22:47:59,685 - INFO - Scan results saved for scan ID: 5
+2025-03-09 22:48:13,020 - INFO - Database initialized successfully
+2025-03-09 22:48:13,022 - INFO - Database initialized successfully
+2025-03-09 22:48:13,022 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:48:19,366 - INFO - Database initialized successfully
+2025-03-09 22:48:19,368 - INFO - Database initialized successfully
+2025-03-09 22:48:19,368 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:48:26,781 - INFO - Database initialized successfully
+2025-03-09 22:48:26,783 - INFO - Database initialized successfully
+2025-03-09 22:48:26,784 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:48:27,965 - INFO - Database initialized successfully
+2025-03-09 22:48:27,967 - INFO - Database initialized successfully
+2025-03-09 22:48:27,968 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:48:27,973 - INFO - Starting Full Scan scan for https://example.com
+2025-03-09 22:48:28,320 - INFO - Started spider scan with ID: 6
+2025-03-09 22:48:30,340 - INFO - Started active scan with ID: does_not_exist
+2025-03-09 22:48:30,402 - INFO - Scan results saved for scan ID: does_not_exist
+2025-03-09 22:50:56,426 - INFO - Database initialized successfully
+2025-03-09 22:50:56,429 - INFO - Database initialized successfully
+2025-03-09 22:50:56,429 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:50:59,228 - INFO - Database initialized successfully
+2025-03-09 22:50:59,230 - INFO - Database initialized successfully
+2025-03-09 22:50:59,230 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:50:59,235 - INFO - Starting Full Scan scan for https://example.com
+2025-03-09 22:50:59,579 - INFO - Started spider scan with ID: 7
+2025-03-09 22:51:01,598 - INFO - Started active scan with ID: does_not_exist
+2025-03-09 22:51:01,662 - INFO - Scan results saved for scan ID: does_not_exist
+2025-03-09 22:51:28,407 - INFO - Database initialized successfully
+2025-03-09 22:51:28,410 - INFO - Database initialized successfully
+2025-03-09 22:51:28,410 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:52:51,803 - INFO - Database initialized successfully
+2025-03-09 22:52:51,805 - INFO - Database initialized successfully
+2025-03-09 22:52:51,805 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:52:54,947 - INFO - Database initialized successfully
+2025-03-09 22:52:54,949 - INFO - Database initialized successfully
+2025-03-09 22:52:54,949 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:52:55,954 - INFO - Starting Full Scan scan for https://example.com
+2025-03-09 22:52:56,322 - INFO - Started spider scan with ID: 8
+2025-03-09 22:52:58,340 - INFO - Started active scan with ID: does_not_exist
+2025-03-09 22:52:59,429 - INFO - Scan results saved for scan ID: does_not_exist
+2025-03-09 22:53:22,294 - INFO - Database initialized successfully
+2025-03-09 22:53:22,296 - INFO - Database initialized successfully
+2025-03-09 22:53:22,296 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:53:26,308 - INFO - Database initialized successfully
+2025-03-09 22:53:26,310 - INFO - Database initialized successfully
+2025-03-09 22:53:26,310 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:53:30,942 - INFO - Database initialized successfully
+2025-03-09 22:53:30,944 - INFO - Database initialized successfully
+2025-03-09 22:53:30,945 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:53:32,129 - INFO - Database initialized successfully
+2025-03-09 22:53:32,132 - INFO - Database initialized successfully
+2025-03-09 22:53:32,132 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:53:33,138 - INFO - Starting API Scan scan for https://example.com
+2025-03-09 22:53:33,517 - INFO - Started API scan with ID: does_not_exist
+2025-03-09 22:53:34,594 - INFO - Scan results saved for scan ID: does_not_exist
+2025-03-09 22:54:36,512 - INFO - Database initialized successfully
+2025-03-09 22:54:36,514 - INFO - Database initialized successfully
+2025-03-09 22:54:36,514 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:54:40,263 - INFO - Database initialized successfully
+2025-03-09 22:54:40,264 - INFO - Database initialized successfully
+2025-03-09 22:54:40,264 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:54:40,270 - ERROR - Scan error: module 'streamlit' has no attribute 'popup'
+2025-03-09 22:56:34,985 - INFO - Database initialized successfully
+2025-03-09 22:56:34,987 - INFO - Database initialized successfully
+2025-03-09 22:56:34,987 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:56:37,852 - INFO - Database initialized successfully
+2025-03-09 22:56:37,854 - INFO - Database initialized successfully
+2025-03-09 22:56:37,854 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:56:38,861 - INFO - Starting API Scan scan for https://example.com
+2025-03-09 22:56:39,769 - INFO - Started API scan with ID: does_not_exist
+2025-03-09 22:56:39,837 - INFO - Scan results saved for scan ID: does_not_exist
+2025-03-09 22:58:20,785 - INFO - Database initialized successfully
+2025-03-09 22:58:20,787 - INFO - Database initialized successfully
+2025-03-09 22:58:20,787 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:58:36,273 - INFO - Database initialized successfully
+2025-03-09 22:58:36,275 - INFO - Database initialized successfully
+2025-03-09 22:58:36,275 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:58:39,860 - INFO - Database initialized successfully
+2025-03-09 22:58:39,862 - INFO - Database initialized successfully
+2025-03-09 22:58:39,862 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:58:40,870 - INFO - Starting Quick Scan scan for https://example.com
+2025-03-09 22:58:41,203 - INFO - Started quick scan with ID: 9
+2025-03-09 22:58:43,295 - INFO - Scan results saved for scan ID: 9
+2025-03-09 22:58:50,099 - INFO - Database initialized successfully
+2025-03-09 22:58:50,101 - INFO - Database initialized successfully
+2025-03-09 22:58:50,101 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:58:53,588 - INFO - Database initialized successfully
+2025-03-09 22:58:53,589 - INFO - Database initialized successfully
+2025-03-09 22:58:53,590 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:58:54,597 - INFO - Starting Quick Scan scan for https://example.com
+2025-03-09 22:58:54,948 - INFO - Started quick scan with ID: 10
+2025-03-09 22:58:57,032 - INFO - Scan results saved for scan ID: 10
+2025-03-09 22:58:59,230 - INFO - Database initialized successfully
+2025-03-09 22:58:59,232 - INFO - Database initialized successfully
+2025-03-09 22:58:59,232 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:59:24,722 - INFO - Database initialized successfully
+2025-03-09 22:59:24,724 - INFO - Database initialized successfully
+2025-03-09 22:59:24,724 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:59:28,209 - INFO - Database initialized successfully
+2025-03-09 22:59:28,211 - INFO - Database initialized successfully
+2025-03-09 22:59:28,211 - INFO - ZAP Scanner initialized successfully
+2025-03-09 22:59:29,218 - INFO - Starting Quick Scan scan for https://example.com
+2025-03-09 22:59:29,563 - INFO - Started quick scan with ID: 11
+2025-03-09 22:59:31,650 - INFO - Scan results saved for scan ID: 11
